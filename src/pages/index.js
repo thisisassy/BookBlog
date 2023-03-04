@@ -1,4 +1,5 @@
 import * as React from "react"
+import { SEO } from "../components/seo"
 import Layout from "../components/layout"
 
 const IndexPage = () => {
@@ -11,4 +12,6 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>The Art of Tsundoku: A Lifestyle Blog with Reading for Bookish</title>
+export const Head = () => (
+  <SEO pageTitle="" />
+)
