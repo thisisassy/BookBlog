@@ -1,14 +1,11 @@
 import * as React from "react"
+import Layout from "../components/layout"
 
 const IndexPage = () => {
   return (
-    <main>
-      <h1>
-        The Art of Tsundoku
-        <br />
-        <span>A Lifestyle Blog with Reading for Bookish📚</span>
-      </h1>
-    </main>
+    <Layout pageTitle="The Art of Tsundoku">
+      <p>A Lifestyle Blog with Reading for Bookish</p>
+    </Layout>
   )
 }
 
