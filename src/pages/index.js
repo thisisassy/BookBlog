@@ -1,12 +1,16 @@
 import * as React from "react"
 import { SEO } from "../components/seo"
 import Layout from "../components/layout"
+import Header from "../components/Header/index";
+import Footer from "../components/Footer/index";
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="The Art of Tsundoku">
-      <p>A Lifestyle Blog with Reading for Bookish</p>
-    </Layout>
+    <>
+      <Header />
+      <Layout pageTitle="The Art of Tsundoku"></Layout>
+      <Footer />
+    </>
   )
 }
 
